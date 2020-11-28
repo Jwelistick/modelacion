@@ -78,20 +78,6 @@ const AddProduct: React.FC<Props> = () => {
     setValue('image', files[0].path);
   };
   const onSubmit = (data) => {
-    // const newProduct = {
-    //   id: uuidv4(),
-    //   name: data.name,
-    //   type: data.type[0].value,
-    //   description: data.description,
-    //   image: data.image,
-    //   price: Number(data.price),
-    //   unit: data.unit,
-    //   salePrice: Number(data.salePrice),
-    //   discountInPercent: Number(data.discountInPercent),
-    //   quantity: Number(data.quantity),
-    //   slug: data.name,
-    //   creation_date: new Date(),
-    // };
     console.log(data, 'newProduct data');
     closeDrawer();
   };
